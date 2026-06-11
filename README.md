@@ -11,7 +11,7 @@
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/mojo-carrot-codex-pet.git
+git clone <repo-url>
 cd mojo-carrot-codex-pet
 ./install.sh
 ```
@@ -53,3 +53,5 @@ The uninstall script removes only the copied `mojo-carrot` pet folder. It does n
 This is an unofficial fan-made Codex pet for personal use. MOJO CARROT, 五月天/Mayday, and STAYREAL related names, character designs, and artwork belong to their respective rights holders. This repository is not affiliated with, endorsed by, or sponsored by 五月天/Mayday or STAYREAL.
 
 Please do not use this project commercially unless you have permission from the relevant rights holders.
+
+No separate open-source license is granted for the character artwork in this repository.
