@@ -2,7 +2,7 @@
 
 一个 fan-made 的 Codex Desktop 自定义窗口宠物，把 Codex 的窗口宠物换成圆滚滚的 MOJO Carrot。
 
-当前 v2 版本提取并转译了 `mojocarrot-on-desk` 的部分角色分层、状态映射和动作节奏，最终仍然是 Codex custom pet 使用的轻量 `8 x 9` spritesheet。这个仓库不包含 Electron 桌宠运行时、Agent hooks、后台服务或端口监听。
+当前 v3 版本提取并转译了 `mojocarrot-on-desk` 的部分角色分层、状态映射和动作节奏，并在庆祝、跳跃、忙碌和阅读状态加入演唱会荧光棒点缀。最终仍然是 Codex custom pet 使用的轻量 `8 x 9` spritesheet。这个仓库不包含 Electron 桌宠运行时、Agent hooks、后台服务或端口监听。
 
 ![Motion preview](previews/motion-preview.gif)
 
@@ -50,7 +50,9 @@ The uninstall script removes only the copied `mojo-carrot` pet folder. It does n
 - `previews/contact-sheet.png`: full frame preview
 - `previews/motion-preview.gif`: quick motion preview
 - `docs/animation-mapping-v2.md`: v2 animation row mapping
+- `docs/animation-mapping-v3.md`: v3 glow-stick accent mapping
 - `tools/build-v2-from-mojocarrot-on-desk.py`: optional local generator for rebuilding v2 from a checked-out reference project
+- `tools/build-v3-glow-stick.py`: optional local generator for adding the v3 glow-stick accent to a v2 sheet
 
 ## Credits and Notice
 
